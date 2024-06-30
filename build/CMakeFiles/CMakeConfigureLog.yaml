@@ -1,0 +1,116 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/msys64/ucrt64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/TraderEngine/trader-engine/build/CMakeFiles/3.30.0-rc4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/TraderEngine/trader-engine/build/CMakeFiles/3.30.0-rc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1"
+      binary: "D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1'
+        
+        Run Build Command(s): D:/cmake-3.30.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_67b50/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_67b50.dir/build.make CMakeFiles/cmTC_67b50.dir/build
+        make[1]: Entering directory 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1'
+        process_begin: CreateProcess(NULL, sh.exe -c "/D/cmake-3.30.0-rc4-windows-x86_64/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/D/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1/CMakeFiles --progress-num=1 Building C object CMakeFiles/cmTC_67b50.dir/CMakeCCompilerABI.c.obj", ...) failed.
+        make (e=2): The system cannot find the file specified.
+        make[1]: *** [CMakeFiles/cmTC_67b50.dir/build.make:77: CMakeFiles/cmTC_67b50.dir/CMakeCCompilerABI.c.obj] Error 2
+        make[1]: Leaving directory 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-mhtpz1'
+        make: *** [Makefile:127: cmTC_67b50/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/cmake-3.30.0-rc4-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: D:/msys64/ucrt64/bin/cc.exe"
+    directories:
+      source: "D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v"
+      binary: "D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v'
+        
+        Run Build Command(s): D:/cmake-3.30.0-rc4-windows-x86_64/bin/cmake.exe -E env VERBOSE=1 C:/ProgramData/chocolatey/bin/make.exe -f Makefile cmTC_cc817/fast
+        C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe  -f CMakeFiles/cmTC_cc817.dir/build.make CMakeFiles/cmTC_cc817.dir/build
+        make[1]: Entering directory 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v'
+        process_begin: CreateProcess(NULL, sh.exe -c "/D/cmake-3.30.0-rc4-windows-x86_64/bin/cmake.exe -E cmake_echo_color --switch= --progress-dir=/D/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v/CMakeFiles --progress-num=1 Building C object CMakeFiles/cmTC_cc817.dir/testCCompiler.c.obj", ...) failed.
+        make (e=2): The system cannot find the file specified.
+        make[1]: *** [CMakeFiles/cmTC_cc817.dir/build.make:77: CMakeFiles/cmTC_cc817.dir/testCCompiler.c.obj] Error 2
+        make[1]: Leaving directory 'D:/TraderEngine/trader-engine/build/CMakeFiles/CMakeScratch/TryCompile-3kmb6v'
+        make: *** [Makefile:127: cmTC_cc817/fast] Error 2
+        
+      exitCode: 2
+...
