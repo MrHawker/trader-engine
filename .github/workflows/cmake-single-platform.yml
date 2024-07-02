@@ -40,7 +40,10 @@ jobs:
       with:
         name: build
         path: ${{github.workspace}}/build
-
+    
+    - name: Set executable permissions
+      run: chmod -R +x ${{github.workspace}}/build
+    
     - name: Test
       working-directory: ${{github.workspace}}/build
       run: ctest -C ${{env.BUILD_TYPE}}
