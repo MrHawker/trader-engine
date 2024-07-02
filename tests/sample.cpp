@@ -7,5 +7,5 @@ TEST(BasicTest, BasicAssertions) {
   EXPECT_EQ(7 * 5, 35);
 }
 TEST(BasicTest,Addition){
-  EXPECT_EQ(3+5,8);
+  EXPECT_EQ(3+5,7);
 }
